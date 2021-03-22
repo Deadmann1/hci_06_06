@@ -61,9 +61,9 @@ WIP </br>
 The website provides a wide variety of information about different kinds of places one might want to visit in Graz.
 They also provide references and links to certain websites and information a tourist might need like a booking website or where to eat.
 </br></br>
-Our motivation and goal for this Evaluation is to provide value for toursits. In detail this means sending the finished evaluation to the toursitst department of Graz.
+Our motivation and goal for this Evaluation is to provide value for toursits and residents. In detail this means sending the finished evaluation to the toursitst department of Graz.
 We hope to provide value for them so that they might consider our suggestions and found problems, so that possible toursits can spend more time enjoying our beautiful city
-and not hassling around with a website.
+and not hassling around with a website. In adition the website is representing Graz in the WWW and should therefor be reliable and work as intended.
 <p class="instructions">
 
 {Short description of the web site to be evaluated and the
@@ -180,6 +180,12 @@ user groups.}
 Unless agreed otherwise with your tutor, assume that you
 will evaluate the entire web site.}
 </p>
+
+<p>
+The entire german version of the website will be evaluted including 
+a check if external links are working, but excluding a evaluation of the external ones.
+</p>
+
 </section>
 
 
@@ -411,7 +417,7 @@ The planned mobile evaluation environments to be used by each evaluator.
     <td>Chrome 89.0.4389.90 (64-bit)</td>
     <td>Firefox 84.0.1</td>
     <td>Edge 85.0.564.41 (64-bit)</td>
-    <td>Firefox 86.0.1 (64-bit)</td>
+    <td>Edge 89.0.774.57 (64-bit)</td>
   </tr>
 
   <tr>
@@ -419,7 +425,7 @@ The planned mobile evaluation environments to be used by each evaluator.
     <td>tbd</td>
     <td>AdblockPlus</td>
     <td>Adblock Plus x.y</td>
-    <td>uBlock Origin</td>
+    <td>AdBlock</td>
   </tr>
 
   <tr>
@@ -479,11 +485,28 @@ text below with your own.}
 </p>
 
 <p>
-On Windows and MacOS, all evaluators will use OBS Studio
+On Windows, all evaluators will use OBS Studio
 to make screen recordings with audio commentary.
-The following video encoder settings will be used: ...
-The following audio encoder settings will be used: ...
-</p>
+The following video encoder settings will be used: 
+Container: MP4,
+Output Video Resolution: 1920x1080,
+Frame Rate: 20fps,
+Codec: H.264,
+Rate Control: VBR,
+Bit Rate: 5000kbps</p>
+
+<p>The following audio encoder settings will be used:
+Channels: Stereo,
+Codec: AAC,
+Sample Rate 44100Hz,
+Bit Rate: 160 kbps,
+Bits per Sample: 32</p>
+
+<p>
+In abberation from above settings Marius will use because of enviroment limitations on the iPad the following settings: 
+Resolution 1440x1920,
+Bitrate: 19040kbit/s,
+Frame Rate: 34</p>
 
 
 
@@ -510,7 +533,8 @@ text below with your own.}
 Since the iPad 10.2" 8th Generation has a native resolution larger than FullHD. A 
 other screen capture format can not be choosen than the native one, therefor
 evaluation video clips will be moved to a Windows 10 pc and then 
-transcoded from 2160x1620 to 1440x1080.
+transcoded from 2160x1620 to 1440x1080 in addition with the resolution change there will be an adaption
+to the standard video and audio settings stated above.
 </p>
 
 
