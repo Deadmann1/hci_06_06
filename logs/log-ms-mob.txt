@@ -2,20 +2,20 @@
 Mobile Evaluation Log
 =====================
 
-Evaluator:  
-Age:  
-Gender:  
-Device:  
-OS and Version:  
-Screen Size:  
-Screen Resolution:  
-Web Browser and Version:  
-Ad Blocker: 
-Internet Connection:  
-Download Speed:  
-Browser Resolution:  
-Date of Evaluation:  
-Time of Evaluation:  
+Evaluator:  Manuel Sammer
+Age:  23
+Gender:  male
+Device:  Huawei P30
+OS and Version: Android 10
+Screen Size: 6.1″
+Screen Resolution: 2349x1080
+Web Browser and Version: Chrome 89.0.4389.90 m (64-Bit)
+Ad Blocker: none
+Internet Connection:  WiFi
+Download Speed:  45mbps
+Browser Resolution: 2349x1080
+Date of Evaluation: tbd
+Time of Evaluation: tbd
 
 
 

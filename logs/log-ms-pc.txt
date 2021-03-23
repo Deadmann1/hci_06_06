@@ -2,20 +2,20 @@
 PC Evaluation Log
 =================
 
-Evaluator:  
-Age:  
-Gender:  
-Device:  
-OS and Version:  
-Screen Size:  
-Screen Resolution:  
-Web Browser and Version:  
-Ad Blocker: 
-Internet Connection:  
-Download Speed:  
-Browser Resolution:  
-Date of Evaluation:  
-Time of Evaluation:  
+Evaluator: Manuel Sammer
+Age: 23
+Gender: male
+Device: PC
+OS and Version: Windows 10 Education EN Build 19041
+Screen Size: 21"
+Screen Resolution: 1920x1080
+Web Browser and Version: Chrome 89.0.4389.90 (64-bit)
+Ad Blocker: tbd
+Internet Connection: Magenta, xdsl
+Download Speed: 45mbps
+Browser Resolution: 1920x1080
+Date of Evaluation: 2021-04-15
+Time of Evaluation: 14:00
 
 
 

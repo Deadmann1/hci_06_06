@@ -2,20 +2,20 @@
 Mobile Evaluation Log
 =====================
 
-Evaluator:  
-Age:  
-Gender:  
-Device:  
-OS and Version:  
-Screen Size:  
-Screen Resolution:  
-Web Browser and Version:  
-Ad Blocker: 
-Internet Connection:  
-Download Speed:  
-Browser Resolution:  
-Date of Evaluation:  
-Time of Evaluation:  
+Evaluator:  Lukas Kloiber
+Age:  21
+Gender:  male
+Device:  OnePlus 7Pro
+OS and Version:  Oxygen OS 10.0.11 (based on Android 10)
+Screen Size:  6.67″
+Screen Resolution:  3120×1440
+Web Browser and Version:  Firefox 86.1.1
+Ad Blocker: none
+Internet Connection:  WiFi
+Download Speed:  50 mbps
+Browser Resolution: 3120×1440 
+Date of Evaluation: Android Screen Capture
+Time of Evaluation: 2021-04-12
 
 
 
