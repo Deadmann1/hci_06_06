@@ -2,18 +2,18 @@
 PC Evaluation Log
 =================
 
-Evaluator:  
-Age:  
-Gender:  
-Device:  
-OS and Version:  
-Screen Size:  
-Screen Resolution:  
-Web Browser and Version:  
-Ad Blocker: 
-Internet Connection:  
-Download Speed:  
-Browser Resolution:  
+Evaluator: Marius Laffer
+Age: 24
+Gender: male  
+Device: PC
+OS and Version: Windows 10 Pro DE v 2004 Build 19041.876
+Screen Size: 24"
+Screen Resolution: 1920x1080 
+Web Browser and Version: Edge 89.0.774.57 (64-bit)
+Ad Blocker: AdBlock
+Internet Connection: A1, LTE
+Download Speed: 60mbps
+Browser Resolution: 1920x1080
 Date of Evaluation:  
 Time of Evaluation:  
 

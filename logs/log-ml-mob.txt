@@ -2,18 +2,18 @@
 Mobile Evaluation Log
 =====================
 
-Evaluator:  
-Age:  
-Gender:  
-Device:  
-OS and Version:  
-Screen Size:  
-Screen Resolution:  
-Web Browser and Version:  
-Ad Blocker: 
-Internet Connection:  
-Download Speed:  
-Browser Resolution:  
+Evaluator: Marius Laffer
+Age: 24
+Gender: male  
+Device: iPad 10.2"
+OS and Version:  ipadOS 14.4.1
+Screen Size:  10.2"
+Screen Resolution: 2160x1620
+Web Browser and Version: Safari 605.1.15
+Ad Blocker: none
+Internet Connection:  Wifi
+Download Speed: 60mbps
+Browser Resolution: 2160x1620
 Date of Evaluation:  
 Time of Evaluation:  
 
