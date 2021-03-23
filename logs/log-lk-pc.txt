@@ -2,20 +2,20 @@
 PC Evaluation Log
 =================
 
-Evaluator:  
-Age:  
-Gender:  
-Device:  
-OS and Version:  
-Screen Size:  
-Screen Resolution:  
-Web Browser and Version:  
-Ad Blocker: 
-Internet Connection:  
-Download Speed:  
-Browser Resolution:  
-Date of Evaluation:  
-Time of Evaluation:  
+Evaluator:  Lukas Klober
+Age:  21
+Gender:  male
+Device:  PC
+OS and Version:  Windwos 10 Education 20H2 19042.867
+Screen Size:  24″
+Screen Resolution:  1920x1080
+Web Browser and Version:  Firefox 84.0.1
+Ad Blocker: AdblockPlus
+Internet Connection:  Magenta
+Download Speed:  50 mbps
+Browser Resolution: 1920x1080 
+Date of Evaluation:  2021-04-12
+Time of Evaluation:  14:00
 
 
 
