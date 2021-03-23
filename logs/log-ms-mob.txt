@@ -23,7 +23,7 @@ Time of Evaluation:
 Negative Findings (Problems)
 -----------------
 
-o EE-Mob-Neg01
+o MS-Mob-Neg01
 
   Title:  Short Heading for the Problem
 
@@ -33,7 +33,7 @@ o EE-Mob-Neg01
   Here is the second sentence. Here is a third sentence.
 
 
-  Video Clip:  ee-mob-neg01-keywords.mp4
+  Video Clip:  ms-mob-neg01-keywords.mp4
 
   Heuristic:  A04 Consistency
 
@@ -41,7 +41,7 @@ o EE-Mob-Neg01
 
 
 
-o EE-Mob-Neg02    [corresponds to EE-PC-Neg01]
+o MS-Mob-Neg02    [corresponds to MS-PC-Neg01]
 
 ...
 
@@ -56,7 +56,7 @@ etc.
 Positive Findings
 -----------------
 
-o EE-Mob-Pos01
+o MS-Mob-Pos01
 
   Title:  Short Heading for the Positive Finding
 
@@ -66,13 +66,13 @@ o EE-Mob-Pos01
   Here is the second sentence. Here is a third sentence.
 
 
-  Video Clip:  ee-mob-pos01-keywords.mp4
+  Video Clip:  ms-mob-pos01-keywords.mp4
 
   How Reproducible?:  Options → This → That
 
 
 
-o EE-Mob-Pos02
+o MS-Mob-Pos02
 
 ...
 
