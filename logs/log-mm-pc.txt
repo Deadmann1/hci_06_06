@@ -2,18 +2,18 @@
 PC Evaluation Log
 =================
 
-Evaluator:  
-Age:  
-Gender:  
-Device:  
-OS and Version:  
-Screen Size:  
-Screen Resolution:  
-Web Browser and Version:  
-Ad Blocker: 
-Internet Connection:  
-Download Speed:  
-Browser Resolution:  
+Evaluator:  Manuel Moser
+Age:  22
+Gender:  Male
+Device:  PC
+OS and Version:  Debian GNU/Linux bullseye/sid x 5.10.0-4-amd64
+Screen Size:  27"
+Screen Resolution:  2560x1440
+Web Browser and Version:  Brave Version 1.22.66 Chromium: 89.0.4389.90 (Official Build) (64-bit)
+Ad Blocker: Brave Shield
+Internet Connection:  Magenta
+Download Speed:  250 mbps
+Browser Resolution:  2560x1372
 Date of Evaluation:  
 Time of Evaluation:  
 

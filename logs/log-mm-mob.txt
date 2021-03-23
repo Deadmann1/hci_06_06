@@ -2,18 +2,18 @@
 Mobile Evaluation Log
 =====================
 
-Evaluator:  
-Age:  
-Gender:  
-Device:  
-OS and Version:  
-Screen Size:  
-Screen Resolution:  
-Web Browser and Version:  
-Ad Blocker: 
-Internet Connection:  
-Download Speed:  
-Browser Resolution:  
+Evaluator:  Manuel Moser
+Age:  22
+Gender:  Male
+Device:  Motorola Moto g8 power
+OS and Version:  Android 10 
+Screen Size:  6.4"
+Screen Resolution: 1080x2300
+Web Browser and Version:  Brave 1.21.77
+Ad Blocker: none
+Internet Connection:  WiFi
+Download Speed:  25 mbps
+Browser Resolution: 414x702
 Date of Evaluation:  
 Time of Evaluation:  
 
