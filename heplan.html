@@ -325,7 +325,7 @@ Austria, use
   <tr>
     <th>Screen Recording Software</th>
     <td>tbd</td>
-    <td>Android Screen Capture</td>
+    <td>AZ Screen recorder</td>
     <td>AZ Screen Recorder</td>
     <td>iOS Screen Recording</td>
   </tr>
@@ -455,7 +455,7 @@ The planned mobile evaluation environments to be used by each evaluator.
  <tr>
     <th>Screen Recording Software</th>
     <td>OBS Studio xx.xx.xx</td>
-    <td>Nvidia Shadowplay / OBS Studio 18.0.0.1</td>
+    <td>OBS Studio 18.0.1</td>
     <td>OBS Studio 25.0.8</td>
     <td>OBS Studio 25.0.8</td>
   </tr>
@@ -485,9 +485,9 @@ text below with your own.}
 </p>
 
 <p>
-On Windows, all evaluators will use OBS Studio
+On Windows, all evaluators will try to use OBS Studio
 to make screen recordings with audio commentary.
-The following video encoder settings will be used: 
+The following video encoder settings have been tested but might be subject to change: 
 Container: MP4,
 Output Video Resolution: 1920x1080,
 Frame Rate: 20fps,
@@ -495,13 +495,18 @@ Codec: H.264,
 Rate Control: VBR,
 Bit Rate: 5000kbps</p>
 
-<p>The following audio encoder settings will be used:
+<p>The following audio encoder settings have been tested but might be subject to change:
 Channels: Stereo,
 Codec: AAC,
 Sample Rate 44100Hz,
 Bit Rate: 160 kbps,
 Bits per Sample: 32</p>
 
+
+<p>
+Evaluators that use AZ-Screen Recorder with the mobile evaluation will try to replicate the settings on the PC
+,but not all options, such as Audio Settings are modifiable.
+</p>
 <p>
 In abberation from above settings Marius will use because of enviroment limitations on the iPad the following settings: 
 Resolution 1440x1920,
@@ -516,9 +521,8 @@ screen recordings. Replace my sample text below with your own.}
 </p>
 
 <p>
-Harald and Christian will use LosslessCut 3.23.8 on Windows 10
-to extract the video clips from their screen recordings.
-Thomas and Sabine will use ...
+On Windows we will use the OpenShot Video Editor to edit and extract the video clips.
+Mobile Clips will be transfered to a PC and then cut there.
 </p>
 
 
@@ -535,6 +539,8 @@ other screen capture format can not be choosen than the native one, therefor
 evaluation video clips will be moved to a Windows 10 pc and then 
 transcoded from 2160x1620 to 1440x1080 in addition with the resolution change there will be an adaption
 to the standard video and audio settings stated above.
+
+The AZ Screen Recorder automatically can record in 1080p so transcodding the video clips from higher resolution is not necessary on Android Devices.
 </p>
 
 
