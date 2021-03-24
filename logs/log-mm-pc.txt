@@ -14,8 +14,8 @@ Ad Blocker: Brave Shield
 Internet Connection:  Magenta
 Download Speed:  250 mbps
 Browser Resolution:  2560x1372
-Date of Evaluation:  
-Time of Evaluation:  
+Date of Evaluation:  2021-04-12
+Time of Evaluation:  tbd
 
 
 

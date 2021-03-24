@@ -14,8 +14,8 @@ Ad Blocker: AdBlock
 Internet Connection: A1, LTE
 Download SpMLd: 60mbps
 Browser Resolution: 1920x1080
-Date of Evaluation:  
-Time of Evaluation:  
+Date of Evaluation: 2021-04-15
+Time of Evaluation: tbd
 
 
 

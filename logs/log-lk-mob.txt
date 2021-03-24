@@ -14,8 +14,8 @@ Ad Blocker: none
 Internet Connection:  WiFi
 Download Speed:  50 mbps
 Browser Resolution: 3120×1440 
-Date of Evaluation: Android Screen Capture
-Time of Evaluation: 2021-04-12
+Date of Evaluation: 2021-04-12
+Time of Evaluation: tbd
 
 
 

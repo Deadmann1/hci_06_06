@@ -14,8 +14,8 @@ Ad Blocker: none
 Internet Connection:  Wifi
 Download Speed: 60mbps
 Browser Resolution: 2160x1620
-Date of Evaluation:  
-Time of Evaluation:  
+Date of Evaluation:  2021-04-16
+Time of Evaluation:  tbd
 
 
 
