@@ -13,7 +13,7 @@ Web Browser and Version:  Brave Version 1.22.66 Chromium: 89.0.4389.90 (Official
 Ad Blocker: Brave Shield
 Internet Connection:  Magenta
 Download Speed:  250 mbps
-Browser Resolution:  2560x1372
+Browser Resolution:  1920x1080
 Date of Evaluation:  2021-04-12
 Time of Evaluation:  tbd
 

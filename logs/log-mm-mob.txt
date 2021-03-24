@@ -13,7 +13,7 @@ Web Browser and Version:  Brave 1.21.77
 Ad Blocker: none
 Internet Connection:  WiFi
 Download Speed:  25 mbps
-Browser Resolution: 414x702
+Browser Resolution: 1080x2300
 Date of Evaluation: 2021-04-12
 Time of Evaluation: tbd
 
