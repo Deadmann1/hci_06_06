@@ -1,0 +1,234 @@
+
+PC Evaluation Log
+=================
+
+Evaluator: Marius Laffer
+Age: 24
+Gender: male  
+Device: PC
+OS and Version: Windows 10 Pro DE v 2004 Build 19041.876
+Screen Size: 24"
+Screen Resolution: 1920x1080 
+Web Browser and Version: Edge 89.0.774.57 (64-bit)
+Ad Blocker: AdBlock
+Internet Connection: A1, LTE
+Download SpMLd: 60mbps
+Browser Resolution: 1920x1080
+Date of Evaluation: 2021-04-15
+Time of Evaluation: 7:00
+
+
+
+
+Negative Findings (Problems)
+-----------------
+
+o ML-PC-Neg01
+
+  Title:  overlapping cookie button
+
+  Description:
+  Wen first visiting the site, the interactive message button is overlapping the cookie button,
+  and therefor you could accidentially open the interactive message.
+
+  Video Clip:  ml-pc-neg01-overlapping-cookie-button.mp4
+
+  Heuristic:  A05 Error Prevention
+
+  How Reproducible?:  Visit the site for the First time/ Delete your stored cookies
+
+
+
+o ML-PC-Neg02
+
+  Title:  menu strip  button
+
+  Description:
+  When searching for something the automatic expansion of the menu strip is hiding your search results.
+
+  Video Clip:  ml-pc-neg02-menu-strip-search-result.mp4
+
+  Heuristic:  
+
+  How Reproducible?:  Search for something and then hover with your mose down to the search results.
+
+
+
+o ML-PC-Neg03
+
+  Title:  multiple cookie request
+
+  Description:
+  When using the website with an adblock, your cookie settings don't get stored and are lost for each subpage.
+
+  Video Clip:  ml-pc-neg03-multiple-cookie-request.mp4
+
+  Heuristic:  A07 Flexibility and Efficiencey of Use
+
+  How Reproducible?:  Visit the site with and adblock and then go to a subpage.
+
+
+
+o ML-PC-Neg04
+
+  Title:  slide show to fast
+
+  Description:
+  The slide show is to fast and is making the viewer dizzy.
+
+  Video Clip:  ml-pc-neg04-slide-show-to-fast.mp4
+
+  Heuristic:  A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:  Visit the startpage of the website, depending on your screen resolution.
+
+
+
+o ML-PC-Neg05
+
+  Title:  menu strip overloaded
+
+  Description:
+  The menu strip is overloaded with to much information to process at one look.
+
+  Video Clip:  ml-pc-neg05-menu-strip-overloaded.mp4
+
+  Heuristic:  A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:  Visit the website and hover over the menu strip.
+
+
+
+o ML-PC-Neg06
+
+  Title:  cookie banner hiding impressum
+
+  Description:
+  The cookie banner is hiding the bottom of the website
+
+  Video Clip:  ml-pc-neg06-cookie-banner-hiding-impressum.mp4
+
+  Heuristic:  A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:  Visit the website for the first time, scroll to the bottom.
+
+
+
+o ML-PC-Neg07
+
+  Title:  categories link expected
+
+  Description:
+  According to the color and normal way we would expect a link to the different categories.
+
+  Video Clip:  ml-pc-neg07-categories-link-expected.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Go to sehen und erleben -> veranstaltungen-> verantaltungskalender -> duckland cartoon ausstellung
+
+
+
+o ML-PC-Neg08
+
+  Title:  typo Geschenksidee
+
+  Description:
+  Geschenksidee is not a German word should be Geschenkidee
+
+  Video Clip:  ml-pc-neg08-typo-geschenksidee.mp4
+
+  Heuristic:  
+
+  How Reproducible?:  Goto shopping und lifestyle -> grazgutschein
+
+
+
+o ML-PC-Neg09
+
+  Title:  zooming
+
+  Description:
+  Zooming leads to strange behavior.
+
+  Video Clip:  ml-pc-neg09-zooming.mp4
+
+  Heuristic: A04 Consistency
+
+  How Reproducible?: Goto anreise und verkehr-> stadtplaene -> interaktiver stadtplan
+
+
+
+o ML-PC-Neg10
+
+  Title:  covid information not correct
+
+  Description:
+  The stated covid information on the website is outdated or simply not correct.
+
+  Video Clip:  ml-pc-neg10-covid-info-not-correct.mp4
+
+  Heuristic: 
+
+  How Reproducible?: Goto gut zu wissen-> service -> corona-aktuelles
+
+
+
+o ML-PC-Neg11
+
+  Title:  dead link
+
+  Description:
+  The link does not work.
+
+  Video Clip:  ml-pc-neg11-dead-link.mp4
+
+  Heuristic: 
+
+  How Reproducible?: goto anreise und verkehr-> mobil in graz-> altstadt bim
+
+
+
+
+Positive Findings
+-----------------
+
+o ML-PC-Pos01
+
+  Title:  information amount impressive
+
+  Description:
+  The Information amount stated on the website is impresive and there is probably not much what you can do in graz that isn't on there.
+
+
+  Video Clip:  ml-pc-pos01-information-amount-impressive.mp4
+
+  How Reproducible?:  Visit the website.
+
+
+
+o ML-PC-Pos02
+
+  Title:  webcam-feature
+
+  Description:
+  The webcam feature is cool, cause you can click on points of interrest directly on the webcam immage and get additional information.
+
+
+  Video Clip:  ml-pc-pos02-webcam-feature.mp4
+
+  How Reproducible?:  Goto gut zu wissen-> service-> webcam-graz
+
+
+
+o ML-PC-Pos03
+
+  Title:  interactive-city-plan
+
+  Description:
+  The interactive city plan is good, cause you can easily find the next restorant or activity next to your hotel for example.
+
+  Video Clip:  ml-pc-pos03-interactive-city-plan.mp4
+
+  How Reproducible?:  goto anreise und verkehr-> stadtplaene-> interaktiverstadtplan
+
