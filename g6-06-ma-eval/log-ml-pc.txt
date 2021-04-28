@@ -28,7 +28,7 @@ o ML-PC-Neg01
   Title:  overlapping cookie button
 
   Description:
-  Wen first visiting the site, the interactive message button is overlapping the cookie button,
+  When first visiting the site, the interactive message button is overlapping the cookie button,
   and therefor you could accidentially open the interactive message.
 
   Video Clip:  ml-pc-neg01-overlapping-cookie-button.mp4
