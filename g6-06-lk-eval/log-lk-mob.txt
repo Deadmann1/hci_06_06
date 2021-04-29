@@ -1,0 +1,201 @@
+
+Mobile Evaluation Log
+=====================
+
+Evaluator:  Lukas Kloiber
+Age:  21
+Gender:  male
+Device:  OnePlus 7Pro
+OS and Version:  Oxygen OS 10.0.11 (based on Android 10)
+Screen Size:  6.67″
+Screen Resolution:  3120×1440
+Web Browser and Version:  Firefox 86.1.1
+Ad Blocker: none
+Internet Connection:  WiFi
+Download Speed:  50 mbps
+Browser Resolution: 3120×1440 
+Date of Evaluation: 2021-04-12
+Time of Evaluation: tbd
+
+
+
+
+Negative Findings (Problems)
+-----------------
+
+o LK-Mob-Neg01
+
+  Title:  Not Intuitive Button
+
+  Description:
+
+  On the start page there is a link to a page.
+  But to get to the page you really have to click the button on the page.
+
+
+  Video Clip:  lk-mob-neg01-NonIntuitiveButton.mp4
+
+  Heuristic:  A02 Speak the Users’ Language
+
+  How Reproducible?:  Start Page -> Graz entdecken
+
+
+
+o LK-Mob-Neg02
+
+  Title:  New Window
+
+  Description:
+
+  On most pages it doesn't open up in a new Window.
+  On some it does. This is a example of one of those.
+
+
+  Video Clip:  lk-mob-neg02-IncosistencyNewWindow.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Start Page -> Weitere Information
+
+
+
+
+o LK-Mob-Neg03
+
+  Title:  Checkbox Behind Slider
+
+  Description:
+
+  There a visible Checkboxes behind the cookie Sliders.
+  It is ugly and really visible.
+
+
+  Video Clip:  lk-mob-neg03-CheckboxBehindSlider.mp4
+
+  Heuristic:  A02 Speak the Users’ Language
+
+  How Reproducible?:  Cookie Preferences
+
+
+
+
+o LK-Mob-Neg04
+
+  Title:  Short Heading for the Problem
+
+  Description:
+
+  If you open a Video on the site it opens in a new Window.
+  Additionally you get an error if you try to close the Video.
+
+
+  Video Clip:  lk-mob-neg04-VideoRedirect.mp4
+
+  Heuristic:  A05 Error Prevention
+
+  How Reproducible?:  Start Page -> Play Video
+
+
+
+o LK-Mob-Neg05
+
+  Title:  Useless Map
+
+  Description:
+
+  Uf you open the map on a Restaurant or the general search map.
+  The opened Window doesn't provide you with any addition information or function than you would expect
+
+
+  Video Clip:  lk-mob-neg05-UselessMap.mp4
+
+  Heuristic:  A02 Speak the Users’ Language
+
+  How Reproducible?:  Map -> Click on Icon
+
+
+
+o LK-Mob-Neg06
+
+  Title:  BuggyMap
+
+  Description:
+
+  If you click on a map icon it opens in a weird position.
+  No User would expect a map to work like this.
+
+
+  Video Clip:  lk-mob-neg06-BuggyMap.mp4
+
+  Heuristic:  A02 Speak the Users’ Language
+
+  How Reproducible?:  Map -> Icon
+
+
+
+
+o LK-Mob-Neg07 [corresponds to lk-pc-neg08]
+
+  Title:  Useless Map
+
+  Description:
+
+  The map is in the wrong position to provide meaningfull additon to the site.
+  In addition theres no conneciton between the items on the map and the search.
+
+
+  Video Clip:  lk-mob-neg07-UselessMap.mp4
+
+  Heuristic:  A02 Speak the Users’ Language
+
+  How Reproducible?:  Filter -> Map
+
+
+
+o LK-Mob-Neg08
+
+  Title:  Unfriendly Search
+
+  Description:
+
+  The search is not as a user excpects.
+  For each search category there is a new page.
+
+
+  Video Clip:  lk-mob-neg08-UnfriendlySearch.mp4
+
+  Heuristic:  A02 Speak the Users’ Language
+
+  How Reproducible?:  Search
+
+
+
+o LK-Mob-Neg09
+
+  Title:  Cookie Preferences
+
+  Description:
+
+  There isn't a way to check or change my cookie preferences.
+
+  Video Clip:  lk-mob-neg09-CookiePreferences.mp4
+
+  Heuristic:  A02 Speak the Users’ Language
+
+  How Reproducible?:  
+
+Positive Findings
+-----------------
+
+o LK-Mob-Pos01
+
+  Title:  Mobile Usable Webcam
+
+  Description:
+
+  Webcam is usabel on mobile devices.
+
+
+  Video Clip:  lk-mob-pos01-Webcam.mp4
+
+  How Reproducible?:  Start Page -> Webcam

@@ -1,0 +1,260 @@
+
+PC Evaluation Log
+=================
+
+Evaluator:  Lukas Klober
+Age:  21
+Gender:  male
+Device:  PC
+OS and Version:  Windwos 10 Education 20H2 19042.867
+Screen Size:  24″
+Screen Resolution:  1920x1080
+Web Browser and Version:  Firefox 84.0.1
+Ad Blocker: AdblockPlus
+Internet Connection:  Magenta
+Download Speed:  50 mbps
+Browser Resolution: 1920x1080 
+Date of Evaluation:  2021-04-12
+Time of Evaluation:  tbd
+
+
+
+
+Negative Findings (Problems)
+-----------------
+
+
+o LK-PC-Neg01
+
+  Title:  Video sound starts before video
+
+  Description:
+
+  Sometimes when you start a video on the site the sound starts before the video.
+  This error is not completly reproducible.
+  In addition the length wich the sounds starts before the video varies.
+
+
+  Video Clip:  lk-pc-neg01-sound-video.mp4
+
+  Heuristic:  A01 Feedback
+
+  How Reproducible?: Play Video on site
+
+
+
+o LK-PC-Neg02
+
+  Title:  Picture in Picture
+
+  Description:
+
+  If you use the picture in picture mode on the website,
+  it only makes the window small.
+  If you try to watch it while browsing the website, it closes the video.
+
+
+  Video Clip:  lk-pc-neg02-PictureInPicture.mp4
+
+  Heuristic:
+
+  How Reproducible?: Play Video on site and use PiP mode
+
+
+
+
+o LK-PC-Neg03
+
+  Title:  Map Multiple
+
+  Description:
+
+  If you click on the map on a second field it opens up a second real google Window.
+  The normal window also doesn't close.
+
+
+  Video Clip:  lk-pc-neg03-MapMultiple.mp4
+
+  Heuristic: A02 Speak the Users’ Language
+
+  How Reproducible?: Tricky. Open Some Map and Click on google markers.
+
+
+o LK-PC-Neg04
+
+  Title:  OpeningTimes
+
+  Description:
+
+  The Opening Times are not as a user would expect them.
+  In addition they are not consistent on the site
+
+  Video Clip:  lk-pc-neg04-OpeningTimes.mp4
+
+  Heuristic: A04 Consistency
+
+  How Reproducible?: Visible on several pages.
+
+  o LK-PC-Neg04
+
+  Title:  OpeningTimes
+
+  Description:
+
+  The Opening Times are not as a user would expect them.
+  In addition they are not consistent on the site
+
+  Video Clip:  lk-pc-neg04-OpeningTimes.mp4
+
+  Heuristic: A04 Consistency
+
+  How Reproducible?: Tricky. Open Some Map and Click on google markers.
+
+
+
+  o LK-PC-Neg05
+
+  Title:  New Window
+
+  Description:
+
+  Some Links Open in a new Window, some don't
+
+  Video Clip:  lk-pc-neg05-OpeningNewWindow.mp4
+
+  Heuristic: A04 Consistency
+
+  How Reproducible?: Some links on website.
+
+
+
+  o LK-PC-Neg06
+
+  Title:  Map Uncheck
+
+  Description:
+
+  You can't uncheck sightseeing on the map.
+
+  Video Clip:  lk-pc-neg0-MapErrorUncheckl.mp4
+
+  Heuristic: A05 Error Prevention
+
+  How Reproducible?: Easy: Sehenswürdigkeiten -> Map
+
+
+
+  o LK-PC-Neg07
+
+  Title:  Wrong Data In Map
+
+  Description:
+
+  If you check Ausflugsziele in the Sehenswürdigkeiten Map theres wrong Data.
+
+  Video Clip:  lk-pc-neg07-WrongDataInMap.mp4
+
+  Heuristic: A02 Speak the Users’ Language
+
+  How Reproducible?: Sehenswürdigkeiten -> Map
+
+
+
+  o LK-PC-Neg08
+
+  Title:  Wrong Data In Map
+
+  Description:
+
+  The Map and the Filter are not in a natural order.
+  If you open the map it's on top of the site. You would have to scroll a lot.
+  In addition there's no logical connection between the listed items and the items in the map.
+
+  Video Clip:    lk-pc-neg08-WrongMapPosition.mp4
+
+  Heuristic: A02 Speak the Users’ Language
+
+  How Reproducible?: Filter -> Map
+
+
+    
+  o LK-PC-Neg09
+
+  Title:  Mini Map Useless
+
+  Description:
+
+  The small map in the search items has no use to users.
+  You can't click on it drag it or anything.
+  In addition most of the time you have no idea where it is.
+
+  Video Clip:    lk-pc-neg09-MiniMapUseless.mp4
+
+  Heuristic: A02 Speak the Users’ Language
+
+  How Reproducible?: Search -> Karte Öffnen (Item)
+
+
+
+  o LK-PC-Neg09
+
+  Title:  Too much information
+
+  Description:
+
+  When you open the site your hit with way to much information.
+  A new user proprably will close the site, because it is too much to really handle.
+
+  Video Clip: lk-pc-neg10-TooMuchInformation.mp4
+
+  Heuristic: A08 Aesthetic and Minimalist Design
+
+  How Reproducible?: Open Site
+
+Positive Findings
+-----------------
+
+o LK-PC-Pos01
+
+  Title:  Email
+
+  Description:
+
+  When you want to email staff from graztoursismus, its really easy.
+  It even opens your mail program for you
+
+  Heuristic: A02 Speak the Users’ Language
+
+  Video Clip:  lk-pc-pos01-Email.mp4
+
+  How Reproducible?:  Contacts -> Email
+
+
+o LK-PC-Pos01
+
+  Title:  Map
+
+  Description:
+
+  You can close the map when you dont need it
+
+  Heuristic: A02 Speak the Users’ Language
+
+  Video Clip:  lk-pc-pos02-CloseMap.mp4
+
+  How Reproducible?:  Open Close Map Button on a Page
+
+o LK-PC-Pos02
+
+  Title:  Webcam
+
+  Description:
+
+  There's a nice interactive webcam on the side.
+  It shoes you a live feed of the best view of Graz.
+
+  Heuristic: A02 Speak the Users’ Language
+
+  Video Clip:  lk-pc-pos03-Webcam.mp4
+
+  How Reproducible?:  Just use Webcam
