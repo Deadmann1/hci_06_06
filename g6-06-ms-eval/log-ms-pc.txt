@@ -1,0 +1,298 @@
+
+PC Evaluation Log
+=================
+
+Evaluator: Manuel Sammer
+Age: 23
+Gender: male
+Device: PC
+OS and Version: Windows 10 Education EN Build 19041
+Screen Size: 21"
+Screen Resolution: 1920x1080
+Web Browser and Version: Chrome 89.0.4389.90 (64-bit)
+Ad Blocker: AdblockPlus
+Internet Connection: Magenta, xdsl
+Download Speed: 45mbps
+Browser Resolution: 1920x1080
+Date of Evaluation: 2021-04-15
+Time of Evaluation: 14:00 - 16:00
+
+
+
+
+Negative Findings (Problems)
+-----------------
+
+o MS-PC-Neg01
+
+  Title:  Information overload on homepage
+
+  Description:
+
+  The homepage of the website displays to much information on a single page.
+  Especially tourists and first time visitors would have a hard time comprehending all the displayed information.
+
+  Video Clip: ms-pc-neg01-information-overload.mp4
+
+  Heuristic: A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:  Looking at the homepage
+  
+  
+  
+  
+o MS-PC-Neg02
+
+  Title: Inconsistency on collapsed side menu in category pages
+
+  Description:
+
+  All category pages like "Essen & Trinken", "Sehen & Erleben" contain a collapsed menu on the left.
+  All menus can be clicked to expand their submenus, except the last one "Unsere Tipps".
+  For this menu you need to click the + button next to it.
+
+  Video Clip:  ms-pc-neg02-inconsistent-menus.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Homepage -> Any category (e.g. "Essen & Trinken") -> Try to click on text of "Unsere Tipps"
+  
+  
+  
+  
+o MS-PC-Neg03 [corresponds to MS-Mob-Neg06]
+
+  Title:  Bookmark feature not explained
+
+  Description:
+
+  The website shows a bookmark list on all pages but only certain articles allow bookmarking.
+  Unfortunately there is no explanation on how and where to use it.
+  They only explain that the entries can be reorder and the list can be sent via mail or saved as a pdf.
+
+  Video Clip:  ms-pc-neg03-no-information-bookmarks.mp4
+
+  Heuristic:  A10 Help and Documentation
+
+  How Reproducible?:  Every page -> top right -> "Merkliste"
+  
+  
+  
+  
+o MS-PC-Neg04 [corresponds to MS-Mob-Neg07]
+
+  Title: Homepage content loading
+
+  Description:
+
+  After visiting some subpages of the website and returning to the homepage, using 
+  any link, the content takes a few seconds longer to load than other pages.
+
+  Video Clip:  ms-pc-neg04-homepage-loading.mp4
+
+  Heuristic:  A01 Feedback
+
+  How Reproducible?:  Visit multiple subpages -> homepage -> scroll down
+  
+  
+  
+  
+o MS-PC-Neg05
+
+  Title: Interactive Map Filter
+
+  Description:
+
+  The website offers an interactive map with points of interest that can be filtered by categories using buttons on the map ("Sightseeing", "Museen", "Hotels", etc.).
+  Unfortunately it is not possible to filter out points of interest of the respective category where we opened the map in.
+  The category of e.g. "Sightseeing" is always visible in the interactive map on the "Sightseeing" category.
+	
+  Video Clip:  ms-pc-neg05-interactive-map-filter.mp4
+
+  Heuristic:  A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:  Visit any category with a interactive map -> open interactive map -> try to filter out current category
+  
+  
+  
+  
+o MS-PC-Neg06
+
+  Title: Interactive Map Leisure Destinations
+
+  Description:
+
+  The website offers an interactive map with points of interest such as destinations to visit for leisure activities (hiking, etc).
+  One destination on the map shows an activity in Schrems which is located in lower Austria near the border to Czech.
+  The destination is very odd, very far away from Graz and makes no sense to show to tourists or locals.
+  All other destinations are in Graz or an reasonable distance away.
+
+  Video Clip:  ms-pc-neg06-interactive-map-leisure.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Homepage -> "Anreise & Verkehr" -> "Interaktiver Stadtplan" -> enable filter "Ausflugsziele" -> see a poi in lower austria
+  
+  
+  
+  
+o MS-PC-Neg07 [corresponds to MS-Mob-Neg08]
+
+  Title: Interactive Map Auto Zoom
+
+  Description:
+
+  The website offers an interactive map with points of interest that can be filtered by categories using buttons on the map (Sightseeing, Museen, Hotels, etc.).
+  After changing the filter the map automatically zooms out.
+  This is very annoying when looking for a hotel, etc. next to a certain poi.
+
+  Video Clip:  ms-pc-neg07-interactive-map-zoom.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Homepage -> "Anreise & Verkehr" -> "Interaktiver Stadtplan" -> zoom anywhere -> activate a filter
+  
+  
+  
+  
+o MS-PC-Neg08 [corresponds to MS-Mob-Neg09]
+
+  Title: Hotel map extreme zoom
+
+  Description:
+
+  If we open the page for a certain hotel and open its provided map we get a nice overview where the hotel is located.
+  Should we close the map and open it again we get the same map again but now its extremely zoomed in to where it is practically useless.
+  The user has to manually zoom out to see anything of the surroundings again.
+
+  Video Clip:  ms-pc-neg08-interactive-map-hotel-zoom.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Homepage -> "Hotels & Appartements" -> "Hotels" -> select any hotel -> open the map -> close the map -> open the map
+  
+  
+  
+  
+o MS-PC-Neg09
+
+  Title:  Bookmark no drag and drop reordering
+
+  Description:
+  
+  There is a description on how to reorder your bookmark list, but it is not possible as the list is not shown.
+
+  Video Clip:  ms-pc-neg09-bookmarks-drag-drop.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Bookmark multiple articles -> Go to the Bookmark page "Merkliste" -> no list to reorder
+  
+  
+  
+
+o MS-PC-Neg10
+
+  Title:  Bookmark no delete
+
+  Description:
+
+  It is not possible after bookmarking an article to remove the bookmark again.
+  There is no option on the article nor the bookmark page.
+
+  Video Clip:  ms-pc-neg10-bookmark-no-delete.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Bookmark an article -> Go to the Bookmark page "Merkliste" -> no way to remove a bookmark
+  
+  
+  
+  
+o MS-PC-Neg11 [corresponds to MS-Mob-Neg10]
+
+  Title:  No reset filter button
+
+  Description:
+
+  The website offers several list with multiple filters but no reset filter option.
+  One example is the breakfast and brunch list.
+  There is no reset filter option, even though there are 12 filter options.
+
+  Video Clip:  ms-pc-neg11-no-reset-filter.mp4
+
+  Heuristic:  A07 Flexibility and Efficiency of Use
+
+  How Reproducible?:  Homepage -> "Essen & Trinken" -> "Gastro-Guide" -> "Frühstück & Branchen" -> looking at the list below
+  
+  
+  
+  
+o MS-PC-Neg12
+
+  Title:  Missing COVID information
+
+  Description:
+
+  The website offers several pages for different kinds of restaurant options (breakfast, dinner, etc).
+  They inform the user on the main gastronomy guide page that restaurants are currently closed due to COVID restrictions.
+  They do not inform the user on each option page  ("Frühstücken & Branchen", "Buschenschank", etc).
+  Also there is no information of the covid restrictions on the pages for each restaurant.
+
+  Video Clip:  ms-pc-neg12-missing-covid-information.mp4
+
+  Heuristic:  A05 Error Prevention
+
+  How Reproducible?:  Homepage -> "Frühstücken & Branchen" -> Any restaurant -> you see nothing about COVID restrictions
+  
+  
+
+
+Positive Findings
+-----------------
+
+o MS-PC-Pos01
+
+  Title:  Wealth of information
+
+  Description:
+
+  The website offers a lot of information for tourists and locals alike.
+  They also provide many useful links to other sites for e.g. disabled people, non natives.
+
+  Video Clip:  ms-pc-pos01-information.mp4
+
+  How Reproducible?:  Looking at the whole website
+
+
+
+
+o MS-PC-Pos02
+
+  Title:  Live webcams
+
+  Description:
+
+  The website offers several live webcams at central hotspots overlooking graz.
+  Users can get a look at the current weather conditions and the city.
+
+  Video Clip:  ms-pc-pos02-live-webcams.mp4
+
+  How Reproducible?:  Homepage -> "Gut zu wissen" -> "Service" -> "Webcam Graz"
+  
+  
+  
+  
+o MS-PC-Pos03 [corresponds to MS-Mob-Pos03]
+
+  Title:  Keywords are always links
+
+  Description:
+  
+  In almost every article on the website keywords e.g. Graz, Uhrturm, Schlossberg, Kunsthaus are also clealy visible links.
+  Users can click the links and are redirected to more information regarding the keyword.
+  
+
+  Video Clip:  ms-pc-pos03-keywords-are-links.mp4
+
+  How Reproducible?:  Homepage -> "Gut zu wissen" -> "Service" -> "Webcam Graz" -> Text above actual webcam stream

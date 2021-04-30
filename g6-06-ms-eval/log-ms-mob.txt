@@ -1,0 +1,255 @@
+
+Mobile Evaluation Log
+=====================
+
+Evaluator:  Manuel Sammer
+Age:  23
+Gender:  male
+Device:  Huawei P30
+OS and Version: Android 10
+Screen Size: 6.1″
+Screen Resolution: 2349x1080
+Web Browser and Version: Chrome 89.0.4389.90 m (64-Bit)
+Ad Blocker: none
+Internet Connection:  WiFi
+Download Speed:  45mbps
+Browser Resolution: 2349x1080
+Date of Evaluation: 2021-04-14
+Time of Evaluation: 14:00 - 16:00
+
+
+
+
+Negative Findings (Problems)
+-----------------
+
+o MS-Mob-Neg01
+
+  Title:  Support Chat Icon
+
+  Description:
+
+  The icon for the support chat cannot be minimized or removed.
+  In some cases this is annoying.
+  
+  Video Clip: ms-mob-neg01-support-chat-icon.mp4
+
+  Heuristic: A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:  Every page
+  
+  
+  
+  
+o MS-Mob-Neg02
+
+  Title:  No incremental search
+
+  Description:
+
+  The search field does not provide an incrementeal search feature.
+  This kind of feature is very common, especially for mobile friendly websites.
+  
+  Video Clip: ms-mob-neg02-incremental-search.mp4
+
+  Heuristic: A07 Flexibility and Efficiency of Use
+
+  How Reproducible?:  Every page -> use search function next to menu icon
+  
+  
+  
+  
+o MS-Mob-Neg03
+
+  Title:   Inconsistency on collapsed menu
+
+  Description:
+
+  When opening the menu and one of the categories e.g. "Anreise & Verkehr" we get a list of collapsed menus.
+  If we click on the text of the collapsed menus instead of expanding we get redirected on a new page.
+  If we click on "Unsere Tipps" though the menu expands.
+  
+  Video Clip: ms-mob-neg03-inconsistent-menu.mp4
+
+  Heuristic: A04 Consistency
+
+  How Reproducible?:  Homepage -> Any category (e.g. "Essen & Trinken") -> Try to click on text of "Unsere Tipps" or other menu
+
+
+
+
+o MS-Mob-Neg04
+
+  Title:  Tiles crowd screen
+
+  Description: 
+
+  Some pages contain large tiles that worked well on pc 
+  but on mobile they needlessly make the page longer in portrait mode.
+  They should be scaled down to be smaller.
+
+  Video Clip: ms-mob-neg04-crowded-tiles.mp4
+ 
+  Heuristic: A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:  Homepage -> "Shopping & Lifestyle" -> "Einkaufsviertel"
+  
+  
+  
+  
+o MS-Mob-Neg05
+
+  Title:  Embedded video cut off
+
+  Description:
+  
+  Some embedded videos are cut off due to the aspect ratio of the device on mobile.
+
+  Video Clip: ms-mob-neg05-embedded-cutoff.mp4
+
+  Heuristic: A04 Consistency
+
+  How Reproducible?:  Homepage -> "Sehen & Erleben" -> "Graz entdecken" -> scroll down to the video
+  
+  
+
+
+o MS-Mob-Neg06 [corresponds to MS-PC-Neg03]
+ 
+  Title:  Bookmark feature not explained
+
+  Description:
+
+  The website shows a bookmark list on all pages but only certain articles allow bookmarking.
+  Unfortunately there is no explanation on how and where to use it.
+  Compared to pc now there is also no explanation on how to edit the bookmark list.
+
+  Video Clip:  ms-mob-neg06-bookmark-explained.mp4
+
+  Heuristic:  A10 Help and Documentation
+
+  How Reproducible?:  Every page -> top middle -> "Merkliste"
+  
+    
+  
+  
+o MS-Mob-Neg07 [corresponds to MS-PC-Neg04]
+
+  Title: Homepage content loading
+
+  Description:
+
+  After visiting some subpages of the website and returning to the homepage, using 
+  any link, the content takes several seconds to load.
+
+  Video Clip:  ms-mob-neg07-hompage-content.mp4
+
+  Heuristic:  A01 Feedback
+
+  How Reproducible?:  Visit multiple subpages -> homepage -> scroll down
+  
+  
+  
+  
+o MS-Mob-Neg08 [corresponds to MS-PC-Neg07]
+
+  Title: Interactive Map Auto Zoom
+
+  Description:
+
+  The website offers an interactive map with points of interest that can be filtered by categories using buttons on the map (Sightseeing, Museen, Hotels, etc.).
+  After changing the filter the map automatically zooms out.
+  This is very annoying when looking for a hotel, etc. next to a certain poi.
+
+  Video Clip:  ms-mob-neg08-auto-zoom.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Homepage -> "Anreise & Verkehr" -> "Interaktiver Stadtplan" -> zoom anywhere -> activate a filter
+  
+  
+  
+  
+o MS-Mob-Neg09 [corresponds to MS-PC-Neg08]
+
+  Title: Hotel map extreme zoom
+
+  Description:
+
+  If we open the page for a certain hotel and open its provided map we get a nice overview where the hotel is located.
+  Should we close the map and open it again we get the same map again but now its extremely zoomed in to where it is practically useless.
+  The user has to manually zoom out to see anything of the surroundings again.
+
+  Video Clip:  ms-mob-neg09-hotel-zoom.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Homepage -> "Hotels & Appartements" -> "Hotels" -> select any hotel -> open the map -> close the map -> open the map
+  
+  
+  
+o MS-Mob-Neg10 [corresponds to MS-PC-Neg11]
+
+  Title:  No reset filter button
+
+  Description:
+
+  The website offers several list with multiple filters but no reset filter option.
+  One example is the breakfast and brunch list.
+  There is no reset filter option, even though there are 12 filter options.
+ 
+  Video Clip:  ms-mob-neg10-no-reset-filter.mp4
+
+  Heuristic:  A07 Flexibility and Efficiency of Use
+
+  How Reproducible?:  Homepage -> "Essen & Trinken" -> "Gastro-Guide" -> "Frühstück & Branchen" -> looking at the list below
+  
+ 
+Positive Findings
+-----------------
+
+o MS-Mob-Pos01
+
+  Title:  Easy navigation
+
+  Description:
+
+  Using breadcrumbs and well positioned links it is very easy to navigate the website on mobile.
+
+  Video Clip:  ms-mob-pos01-easy-navigation.mp4
+
+  How Reproducible?:  Looking at the whole website
+
+
+
+
+o MS-Mob-Pos02
+ 
+  Title:  Bookmarks work
+
+  Description:
+
+  Bookmarks work correctly on mobile. 
+  So we can bookmark articles, order them how we want in our list and print them out or save it as a pdf.
+  Very useful for tourists and locals.
+
+  Video Clip:  ms-mob-pos02-bookmarks-working.mp4
+
+  How Reproducible?:  Homepage -> "Gut zu wissen" -> "Service" -> "Webcam Graz"
+  
+  
+  
+  
+o MS-Mob-Pos03 [corresponds to MS-PC-Pos03]
+
+  Title:  Keywords are always links
+
+  Description:
+  
+  In almost every article on the website keywords e.g. Graz, Uhrturm, Schlossberg, Kunsthaus are also clealy visible links.
+  Users can click the links and are redirected to more information regarding the keyword.
+  
+
+  Video Clip:  ms-mob-pos03-keywords-are-linked.mp4
+
+  How Reproducible?:  Homepage -> "Gut zu wissen" -> "Service" -> "Webcam Graz" -> Text above actual webcam stream
