@@ -1,0 +1,327 @@
+
+PC Evaluation Log
+=================
+
+Evaluator:  Manuel Moser
+Age:  22
+Gender:  Male
+Device:  PC
+OS and Version:  Debian GNU/Linux bullseye/sid x 5.10.0-4-amd64
+Screen Size:  27"
+Screen Resolution:  2560x1440
+Web Browser and Version:  Brave Version 1.22.66 Chromium: 89.0.4389.90 (Official Build) (64-bit)
+Ad Blocker: Brave Shield
+Internet Connection:  Magenta
+Download Speed:  250 mbps
+Browser Resolution:  1920x1080
+Date of Evaluation:  2021-04-19
+Time of Evaluation:  18:00
+
+
+
+Negative Findings (Problems)
+-----------------
+
+o MM-PC-Neg01    
+
+  Title:  Inconsistent backwards navigation
+
+  Description:
+  
+  Search filters are not applied after going backwards
+  in the menu structure. The filters are still filled in correctly,
+  but the search results disregard them.
+
+  Video Clip:  mm-pc-neg01-backnav-filter.mp4
+
+  Heuristic:  A03 Reversible Actions
+
+  How Reproducible?:
+  Congress -> VENUE FINDER AGENCIES & CATERING 
+    -> select filter
+    -> select item from results
+    -> go back (browser back action, or back button doesn't matter)
+    -> filter settings are still filled in, 
+        but not applied to the results. After clicking 
+        search again, the filters are applied correctly.
+
+
+o MM-PC-Neg02
+
+  Title:  Inconsistent button placement
+
+  Description:
+  
+  The search button was previously centered, and is now 
+  aligned to the right. The filter menus in general seem
+  to behave differently at times,
+  even though they all look the same.
+
+  Video Clip:  mm-pc-neg02-inconsistent-placement.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:
+    Congress -> VENUE FINDER AGENCIES & CATERING                                    ... search button centered
+    Congress -> VENUE FINDER AGENCIES & CATERING ->[from sub-menu]  EVENT LOCATIONS ... search button right
+
+
+o MM-PC-Neg03
+
+  Title:  Text out of containing border
+
+  Description:
+  
+  Text is not contained in outer box, and
+  continues over the border.
+
+  Video Clip:  mm-pc-neg03-out-of-bounds.mp4
+
+  Heuristic:  
+
+  How Reproducible?:
+    Congress -> VENUE FINDER AGENCIES & CATERING -> show all in the map -> select "CONVENTA VERANSTALTUNGSMANAGEMENT"
+
+
+o MM-PC-Neg04
+
+  Title:  Form date format not specified
+
+  Description:
+  
+  The form expects a date as input,
+  the format however is not specified. It displays
+  a "accepted" checkmark after inputting an integer
+  already.
+
+  Video Clip:  mm-pc-neg04-date-format.mp4
+
+  Heuristic:  A06 Recognition Rather Than Recall
+
+  How Reproducible?:
+  Congress -> CONGRESS AND EXHIBITION CALENDAR -> Register conference
+
+
+o MM-PC-Neg05
+
+  Title:  Inconsistent backwards navigation
+
+  Description:
+  
+  The options for going back to the parent menu
+  is not consistent across the side. Placement varies,
+  and sometimes there is no option at all.
+
+  Video Clip:  mm-pc-neg05-backnav.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:
+  Menus presented in the video, each having a different backwards navigation option
+  
+  Congress -> DESTINATION GRAZ -> CAPITAL OF CULINARY DELIGHTS
+    -> select item from the three listed
+    -> back button is embedded in the content space.
+
+  SEE & DO -> SIGHTSEEING -> Top 10 Sights
+    -> select item from the sights listed
+    -> no back button provided from the side
+
+  SEE & DO -> EVENTS -> TOP EVENTS
+    -> select item from the list
+    -> back button at the bottom of the page
+
+
+o MM-PC-Neg06
+
+  Title:  Broken link collection
+
+  Description:
+  
+  Links redirecting to a side that is not available,
+  or that does not display any content.
+
+  Video Clip:  mm-pc-neg06-broken-link-00.mp4
+                mm-pc-neg06-broken-link-01.mp4
+
+  Heuristic:  
+
+  How Reproducible?:
+  00: TRAVEL & TRANSPORT -> MOBILE IN GRAZ -> Taxi & Delivery services -> link "Hörmann's Stretchlimousinen Kg"
+  01: SEE & DO -> SIGHTSEEING -> Museums & galleries -> History Museum -> link "Entrance fees in detail"
+
+
+o MM-PC-Neg07
+
+  Title:  Missing image
+
+  Description:
+  
+  Page header doesn't have the background image like
+  the previous pages did.
+
+  Video Clip:  mm-pc-neg07-missing-image.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:
+  TRAVEL & TRANSPORT -> GETTING HERE -> BY CARAVAN
+
+
+o MM-PC-Neg08
+
+  Title:  Button inconsistency
+
+  Description:
+  
+  The more button is used across the side to
+  expand a folded paragraph. In this case it is 
+  a link redirecting to a new side.
+
+  Video Clip:  mm-pc-neg08-button-inconsistency.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:
+  TRAVEL & TRANSPORT -> MOBILE IN GRAZ -> Bus & Tram
+
+
+o MM-PC-Neg09
+
+  Title:  Redundant information provided
+
+  Description:
+  
+  More button, which was previously used to expand
+  a paragraph is now a link to a new side.
+
+  Video Clip:  mm-pc-neg09-redundancy.mp4
+
+  Heuristic:  A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:
+  Hover SEE & DO -> CHRISTMAS IN GRAZ -> CHRISTMAS MARKETS -> KARMELITERPLATZ
+
+
+o MM-PC-Neg10
+
+  Title:  Complex menu structure
+
+  Description:
+  
+  The Menu structure is too complicated for
+  the amount of information provided at the end.
+  The user has to step through multiple sub-menus to get
+  any information and since backwards navigation is lacking
+  as well, this makes the side difficult to navigate.
+
+  Video Clip:  mm-pc-neg10-complex-menu.mp4
+
+  Heuristic:  A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:
+  SHOPPING from sliding menu -> SHOPPING STREETS -> HERRENGASSE -> CAFÉ SACHER SHOP GRAZ
+
+
+o MM-PC-Neg11
+
+  Title:  Misleading menu design
+
+  Description:
+  
+  The menu structure on the left hand side looks like
+  it can be expanded, but does not contain any 
+  additional information.
+
+  Video Clip:  mm-pc-neg11-misleading-design.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:
+  *only in german language selection
+    GRUPPEN -> PROGRAMMVORSCHLÄGE -> STADTFÜHRUNGEN FÜR GRUPPEN
+
+
+o MM-PC-Neg12       [corresponds to MM-Mob-Neg01]
+
+  Title:  Overlapping of buttons
+
+  Description:
+  
+  The buttons for closing the map and going into fullscreen mode overlap.
+
+  Video Clip:  mm-pc-neg12-overlapping-buttons.mp4
+
+  Heuristic:  A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:
+    SHOPPING from sliding menu -> SHOPPING STREETS -> HERRENGASSE -> CAFÉ SACHER SHOP GRAZ -> open map
+
+
+o MM-PC-Neg13     [corresponds to MM-Mob-Neg10] 
+
+  Title:  Misleading tab selection
+
+  Description:
+  
+  It looks like information tab is selected, since there
+  is no separator between the content and the tab name.
+  When selecting the Events tab the separator stays and it
+  still looks like the Information tab is selected.
+
+  Video Clip:  mm-pc-neg13-keywords.mp4
+
+  Heuristic:  A06 Recognition Rather Than Recall
+
+  How Reproducible?:
+    SEE & DO -> SIGHTSEEING -> Top 10 Sights -> LANDHAUS COURTYARD -> select Events tab
+
+
+Positive Findings
+-----------------
+
+o MM-PC-Pos01
+
+  Title:  Search feature
+
+  Description:
+
+  Since the menu contains so many entries, the search feature
+  is very welcome to find what you need quickly, instead of browsing
+  through all the possible locations of what you are looking for.
+
+  Video Clip:  mm-pc-pos01-search.mp4
+
+  How Reproducible?:  Click search bar -> enter search term -> hit enter
+
+
+o MM-PC-Pos02
+
+  Title:  Advent page
+
+  Description:
+
+  The side provides an advent themed view of graz, with suggestions
+  appropriate for the time. There you can find a list of christmas markets,
+  events during christmas time and a picture gallery of the christmas tree.
+
+  Video Clip:  mm-pc-pos02-advent.mp4
+
+  How Reproducible?:
+    Hover SEE & DO -> CHRISTMAS IN GRAZ
+
+
+o MM-PC-Pos03
+
+  Title:  Group suggestions
+
+  Description:
+
+  The side offers the option to specifically find activities for groups
+  to get useful suggestions faster. It is a stripped down version of the side targeted
+  at group programmes.
+
+  Video Clip:  mm-pc-pos03-groups.mp4
+
+  How Reproducible?:
+    Groups button at the top of the page

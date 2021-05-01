@@ -1,0 +1,267 @@
+
+Mobile Evaluation Log
+=====================
+
+Evaluator:  Manuel Moser
+Age:  22
+Gender:  Male
+Device:  Motorola Moto g8 power
+OS and Version:  Android 10 
+Screen Size:  6.4"
+Screen Resolution: 1080x2300
+Web Browser and Version:  Brave 1.21.77
+Ad Blocker: none
+Internet Connection:  WiFi
+Download Speed:  25 mbps
+Browser Resolution: 1080x2300
+Date of Evaluation: 2021-04-19
+Time of Evaluation: 22:00
+
+
+
+Negative Findings (Problems)
+-----------------
+
+o MM-Mob-Neg01    [corresponds to MM-PC-Neg12]
+
+  Title:  Overlapping of buttons
+
+  Description:
+  
+  The buttons for closing the map and going into fullscreen mode overlap.
+
+  Video Clip:  mm-mob-neg01-overlapping-buttons.mp4
+
+  Heuristic: A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:
+  SHOPPING from sliding menu -> SHOPPING STREETS -> HERRENGASSE -> CAFÉ SACHER SHOP GRAZ -> open map
+
+
+o MM-Mob-Neg02
+
+  Title:  Wrong popup placement
+
+  Description:
+  
+  The popup window in the map is sized/placed incorrectly,
+  such that it is not entirely visible. It can be viewed entirely
+  by moving the shop icon in the top left corner, but that should
+  not be necessary.
+
+  Video Clip:  mm-mob-neg02-popup-placement.mp4
+
+  Heuristic: A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:
+    SHOPPING from sliding menu -> SHOPPING STREETS -> HERRENGASSE -> CAFÉ SACHER SHOP GRAZ -> open map -> select shop icon
+
+
+o MM-Mob-Neg03
+
+  Title:  Unintuitive button design
+
+  Description:
+  
+  The button to expand the paragraph has the design of a dropdown menu.
+
+  Video Clip:  mm-mob-neg03-unintuitive-menu.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:
+    SEE & DO -> Top 10 Sights -> click Details button
+
+
+o MM-Mob-Neg04
+
+  Title:  Inappropriate naming of container
+
+  Description:
+  
+  The container wrapping the options to save to pdf and send by email
+  is named "filters" which is very misleading.
+
+  Video Clip:  mm-mob-neg04-inappropriate-naming.mp4
+
+  Heuristic:   A04 Consistency
+
+  How Reproducible?:
+    click on watchlist -> expand filters
+
+
+o MM-Mob-Neg05
+
+  Title:  Interactive webcam feedback
+
+  Description:
+  
+  The interactive webcam does not show what directions are available,
+  or where start and end of the rotation is. Combined with response delay
+  on a mobile device makes this difficult to navigate.
+
+  Video Clip:  mm-mob-neg05-interactive-webcam.mp4
+
+  Heuristic:   A01 Feedback
+
+  How Reproducible?:
+    GOOD TO KNOW -> SERVICE -> Webcam Graz -> inspect a webcam
+
+
+o MM-Mob-Neg06
+
+  Title:  Interactive webcam useless buttons
+
+  Description:
+  
+  Some of the interactive webcams contain forward and backwards (in time presumably) buttons
+  which do not do anything other than the pressed animation.
+
+  Video Clip:  mm-mob-neg06-interactive-webcam-buttons.mp4
+
+  Heuristic:   A04 Consistency
+
+  How Reproducible?:
+    GOOD TO KNOW -> SERVICE -> Webcam Graz -> inspect the second webcam
+
+
+o MM-Mob-Neg07
+
+  Title:  Useless scrollbar
+
+  Description:
+  
+  When any selection is made on this page, the inner box
+  gets its own scrollbar, without any need for it. It only 
+  makes scrolling through white space available and delays
+  scrolling, while scrolling inside the box. Especially on
+  mobile devices it makes for awkward navigation.
+
+  Video Clip:  mm-mob-neg07-useless-scrollbar.mp4
+
+  Heuristic:   A07 Flexibility and Efficiency of Use
+
+  How Reproducible?:
+    GOOD TO KNOW -> SERVICE -> Corona - Latest News -> Select any option
+
+
+o MM-Mob-Neg08
+
+  Title:  Button duplicate
+
+  Description:
+  
+  Two search buttons exist with the same functionality. The key word input
+  could be part of the filters group anyway which would also eliminate the duplicate
+  search button.
+
+  Video Clip:  mm-mob-neg08-button-duplicate.mp4
+
+  Heuristic:   A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:
+    SEE & DO -> EVENTS -> Event Calender -> Show filters
+
+
+o MM-Mob-Neg09
+
+  Title:  Misalignment
+
+  Description:
+  
+  The text intersects with the input box.
+
+  Video Clip:  mm-mob-neg09-misalignment.mp4
+
+  Heuristic:   A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:
+    SEE & DO -> EVENTS -> Event Calender -> Show filters
+
+
+o MM-Mob-Neg10     [corresponds to MM-PC-Neg13]
+
+  Title:  Misleading tab selection
+
+  Description:
+  
+  It looks like information tab is selected, since there
+  is no separator between the content and the tab name.
+  When selecting the Events tab the separator stays and it
+  still looks like the Information tab is selected.
+
+  Video Clip:  mm-mob-neg10-unclear-selection.mp4
+
+  Heuristic:  A06 Recognition Rather Than Recall
+
+  How Reproducible?:
+    SEE & DO -> SIGHTSEEING -> Top 10 Sights -> LANDHAUS COURTYARD -> select Events tab
+
+
+o MM-Mob-Neg11
+
+  Title:  Empty option in filter menu
+
+  Description:
+  
+  The filter options contains an option which is empty.
+  Selecting it actually changes the search results.
+
+  Video Clip:  mm-mob-neg11-filter-empty-option.mp4
+
+  Heuristic:  A08 Aesthetic and Minimalist Design
+
+  How Reproducible?:
+    EAT & DRINK -> RESTAURANT GUIDE -> Restaurant Guide Search
+
+
+Positive Findings
+-----------------
+
+o MM-PC-Pos01
+
+  Title:  Search feature
+
+  Description:
+
+  Since the menu contains so many entries, the search feature
+  is very welcome to find what you need quickly, instead of browsing
+  through all the possible locations of what you are looking for.
+
+  Video Clip:  mm-mob-pos01-search.mp4
+
+  How Reproducible?:  Click search bar -> enter search term -> hit enter
+
+
+o MM-PC-Pos02
+
+  Title:  Advent page
+
+  Description:
+
+  The side provides an advent themed view of graz, with suggestions
+  appropriate for the time. There you can find a list of christmas markets,
+  events during christmas time and a picture gallery of the christmas tree.
+
+  Video Clip:  mm-mob-pos02-advent.mp4
+
+  How Reproducible?:
+    Hover SEE & DO -> CHRISTMAS IN GRAZ
+
+
+o MM-PC-Pos03
+
+  Title:  Group suggestions
+
+  Description:
+
+  The side offers the option to specifically find activities for groups
+  to get useful suggestions faster. It is a stripped down version of the side targeted
+  at group programmes.
+
+  Video Clip:  mm-mob-pos03-groups.mp4
+
+  How Reproducible?:
+    Groups button at the top of the page
+
+
