@@ -1,0 +1,229 @@
+
+Mobile Evaluation Log
+=====================
+
+Evaluator: Marius Laffer
+Age: 24
+Gender: male  
+Device: iPad 10.2"
+OS and Version:  ipadOS 14.4.1
+Screen Size:  10.2"
+Screen Resolution: 2160x1620
+Web Browser and Version: Safari 605.1.15
+Ad Blocker: none
+Internet Connection:  Wifi
+Download Speed: 60mbps
+Browser Resolution: 2160x1620
+Date of Evaluation:  2021-04-15
+Time of Evaluation:  12:00
+
+
+
+
+Negative Findings (Problems)
+-----------------
+
+o ML-Mob-Neg01
+
+  Title:  plus to small to click
+
+  Description:
+
+  The plus is hard to click on a mobile device, cause of it's small size
+
+
+  Video Clip:  ml-mob-neg01-plus-small-click.mp4
+
+  Heuristic:  A05 Error Prevention
+
+  How Reproducible?:  Try to expand any button with a +
+
+
+
+o ML-Mob-Neg02
+
+  Title:  no time to read
+
+  Description:
+  There is no Time to read the Text thats expanding when clicking on a picture link on the startsite
+
+  Video Clip:  ml-mob-neg02-no-time-to-read.mp4
+
+  Heuristic:  
+
+  How Reproducible?:  Click on any picture link on the startsite
+
+
+
+o ML-Mob-Neg03
+
+  Title:  Top ten not in Top ten
+
+  Description:
+  The Kaiserjosef markt despite marked as a top then is not in the top then list when following the link to called list
+
+  Video Clip:  ml-mob-neg03-Top-ten-not-in.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  goto sehen &erleben-> sightseeing-> sehenswürdigkeiten-> Kaiser Josef Markt
+
+
+
+o ML-Mob-Neg04
+
+  Title:  move additional info webcam
+
+  Description:
+  On moblile there is no way to move the additional info when using the webcam feature.
+
+
+  Video Clip:  ml-mob-neg04-move-additional-webcam-info.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Goto gut zu wissen-> service-> webcam-graz
+
+
+
+o ML-Mob-Neg05
+
+  Title:  gruppen link
+
+  Description:
+  When clicking on the top left corner on gruppen you get redirected to an old site of graztourismus
+
+
+  Video Clip:  ml-mob-neg05-gruppen-link.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Click on gruppen in the top left corner
+
+
+
+o ML-Mob-Neg06
+
+  Title:  search not working as intended
+
+  Description:
+  When searchign for pictures of frohnleiten in the picture search, you get graz fotos
+
+  Video Clip:  ml-mob-neg06-search-not-working.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Go to the graz picture search and seachr for frohnleiten
+
+
+
+o ML-Mob-Neg07
+
+  Title:  search last site
+
+  Description:
+  When searchign for schuhe and using the last site button all search results are lost
+
+  Video Clip:  ml-mob-neg07-search-last-site.mp4
+
+  Heuristic:  
+
+  How Reproducible?:  Search for Schuhe and click the last site button
+
+
+
+
+o ML-Mob-Neg08
+
+  Title:  zoom is lost
+
+  Description:
+  When zooming on the interactive map and all possible things are activated the zoom gets lost after zooming in.
+
+
+  Video Clip:  ml-mob-neg08-zoom-lost.mp4
+
+  Heuristic:  
+
+  How Reproducible?:  Goto goto anreise und verkehr-> stadtplaene-> interaktiverstadtplan then activate all and zoom
+
+
+
+o ML-Mob-Neg09
+
+  Title:  tooltipps not working on mobile
+
+  Description:
+  cant hover over a button with your finger on mobile like on pc therefor no tooltips for you/if you cant read fast
+
+
+  Video Clip:  ml-mob-neg09-no-tooltipps.mp4
+
+  Heuristic:  A05 Error Prevention
+
+  How Reproducible?:  Goto merkliste
+
+
+
+o ML-Mob-Neg10
+
+  Title:  close open menu
+
+  Description:
+  there is no way to close a currently open menu in the menu strip by clicking on the minus despite the minus indicating it.
+
+  Video Clip:  ml-mob-neg10-close-open-menu.mp4
+
+  Heuristic:  A04 Consistency
+
+  How Reproducible?:  Open the menu strip go to a menu and then try to close it
+
+
+
+
+Positive Findings
+-----------------
+
+o ML-Mob-Pos01
+
+  Title:  Top Event slide
+
+  Description:
+
+  The top Event Slide is a nice way to get the current runnign top events on one look at the startpage.
+
+
+  Video Clip:  ml-mob-pos01-top-event-slide.mp4
+
+  How Reproducible?:  visit the website and scroll down to the top event slide
+
+
+
+o ML-Mob-Pos02
+
+  Title:  send merkliste
+
+  Description:
+
+  It's a nice feature to be able to send your merkliste to other people.
+
+
+  Video Clip:  ml-mob-pos02-send-merkliste.mp4
+
+  How Reproducible?:  goto the top right corner and click merkliste and then on e-mail senden
+
+
+
+o ML-Mob-Pos03
+
+  Title:  Top then sightseeing attractions
+
+  Description:
+
+  It's a nice feature to be able to send your merkliste to other people.
+
+
+  Video Clip:  ml-mob-pos03-top-ten-attractions.mp4
+
+  How Reproducible?:  visit the website and scroll down to the top then attractions
+
